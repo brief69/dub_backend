@@ -1,0 +1,35 @@
+# Unibill Microservice API
+
+## Overview
+
+Unibill is a microservice API designed to manage the ease of transactions for users. It increases the 'usefulness' percentage of successful transactions while decreasing it significantly upon failed or cancelled transactions.
+
+## Features
+
+- Increment 'usefulness' on successful transactions.
+- Decrement 'usefulness' on unsuccessful or cancelled transactions.
+
+## System Requirements
+
+- Python 3.x
+- Django
+
+## Installation & Setup
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install necessary packages and dependencies.
+4. Set up a virtual environment (optional but recommended).
+5. Run the application.
+
+## Usage
+
+The API endpoints respond to successful and unsuccessful transaction notifications and update the user data accordingly.
+
+## Contributing
+
+- Please read `CONTRIBUTING.md` for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
